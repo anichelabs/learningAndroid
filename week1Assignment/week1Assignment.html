@@ -1,0 +1,256 @@
+<!DOCTYPE html><html lang="en-US"><head><title>Week 1 - Intro to Android | CodePath Courses</title><link href="/stylesheets/bootstrap.min.css?1423092769" rel="stylesheet" type="text/css" /><link href="/stylesheets/bootstrap-theme.min.css?1423092769" rel="stylesheet" type="text/css" /><link href="/stylesheets/typeahead-bootstrap.css?1423092769" rel="stylesheet" type="text/css" /><link href="/stylesheets/highlight.css?1423092769" rel="stylesheet" type="text/css" /><link href="/stylesheets/style.css?1423092769" rel="stylesheet" type="text/css" /><meta charset="UTF-8" /><meta content="width=device-width, initial-scale=1.0" name="viewport" /><meta content="noindex, nofollow" name="robots" /><script type="text/javascript">(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-47712505-3', 'codepath.com');
+ga('require', 'linkid', 'linkid.js');
+ga('require', 'displayfeatures');
+ga('send', 'pageview');</script></head><body><div class="navbar navbar-default" id="main-nav"><div class="container"><div class="navbar-header"><button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="/">CodePath Courses</a></div><div class="navbar-collapse collapse"><ul class="nav navbar-nav"><li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0);">Courses <b class="caret"></b></a><ul class="dropdown-menu"><li><a href="/courses/intro_to_android">Intro to Android</a></li><li><a href="/courses/intro_to_ios">Intro to iOS</a></li><li><a href="/courses/ios_for_designers">iOS for Designers</a></li><li><a href="/courses/android_for_designers">Android for Designers</a></li></ul></li></ul><ul class="nav navbar-nav"><li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0);">Quick Links <b class="caret"></b></a><ul class="dropdown-menu"><li><a href="http://guides.codepath.com/android/Android-Bootcamp-Cliffnotes" target="_blank">Cliffnotes</a></li><li><a href="http://guides.codepath.com/android/Troubleshooting-Common-Issues" target="_blank">Troubleshooting</a></li><li><a href="http://android-app-patterns.com" target="_blank">App UI Patterns</a></li><li><a href="http://iconmonstr.com" target="_blank">Iconmonstr</a></li></ul></li></ul><ul class="nav navbar-nav navbar-right"><li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0);" style="overflow:hidden"><div class="pull-left"><img width="20" class="img-circle img-responsive" src="https://avatars.githubusercontent.com/u/3219307?v=3" /></div>&nbsp;<div class="pull-right">Aneesh <b class="caret"></b></div></a><ul class="dropdown-menu"><li><a data-method="delete" href="/sessions">Logout</a></li></ul></li></ul></div></div></div><div class="container"><div class="title clearfix"><h1>Intro to Android Outline</h1><p class="alert alert-info">Need help? Email us at <a class="alert-link" href="mailto:support@codepath.com">support@codepath.com</a> or post on the <a target="blank" class="alert-link" href="https://groups.google.com/forum/#!forum/feb-codepath-android-sf">google group</a> (<a href="mailto:feb-codepath-android-sf@googlegroups.com">email</a>)</p></div><div class="row"><div class="col-md-2"><ul class="nav nav-pills nav-stacked"><li><a href="/courses/intro_to_android/pages/bootcamp_structure">Overview</a></li><li class="active"><a href="/courses/intro_to_android/week/1#!module"><span>Week 1 &nbsp;</span><span class="glyphicon glyphicon-map-marker" /></a></li><li><a href="/courses/intro_to_android/week/2#!module"><span>Week 2 &nbsp;</span></a></li><li><a href="/courses/intro_to_android/week/3#!module"><span>Week 3 &nbsp;</span></a></li><li><a href="/courses/intro_to_android/week/4#!module"><span>Week 4 &nbsp;</span></a></li><li><a href="/courses/intro_to_android/week/5#!module"><span>Week 5 &nbsp;</span></a></li><li><a href="/courses/intro_to_android/week/6#!module"><span>Week 6 &nbsp;</span></a></li><li><a href="/courses/intro_to_android/week/7#!module"><span>Week 7 &nbsp;</span></a></li><li><a href="/courses/intro_to_android/week/8#!module"><span>Week 8 &nbsp;</span></a></li></ul></div><div class="col-md-10"><ul class="nav nav-tabs"><li><a data-toggle="tab" href="#module">Resources</a></li><li><a data-toggle="tab" href="#assignment">Assignment</a></li><li><a data-toggle="tab" href="#hints">Project Hints</a></li><li><a data-toggle="tab" href="#exercises">Exercises</a></li></ul><div class="tab-content section-content" style="height: 1000px;"><div class="tab-pane" id="module"><div class="panel panel-default"><div class="panel-body"><h2><a class="anchor" id="heading-week-1-resources---app-fundamentals" href="#heading-week-1-resources---app-fundamentals"><i class="fa fa-link"></i></a>Week 1 Resources - App Fundamentals</h2>
+
+<p>This week we are covering app fundamentals, views and layouts.</p>
+
+<h3><a class="anchor" id="heading-assignment" href="#heading-assignment"><i class="fa fa-link"></i></a>Assignment</h3>
+
+<p><img src="/course_images/intro_to_android/instagram_1.png" width="140" class="homework-preview" /></p>
+
+<p>This week we will be building an instagram client which displays recent popular photos.</p>
+
+<ul>
+<li><a href="/courses/intro_to_android/pages/setup_environment" alt="Setup Android Environment" title="Setup Android Environment">Setup Android Environment</a></li>
+<li><a href="#!assignment">Week 1 Project: Instagram Photo Viewer</a> (Due <strong>Sunday, February 8th at 10pm</strong>)
+
+<ul>
+<li><span class="glyphicon glyphicon-film"></span> <a href="/course_videos/intro_to_android/105515674" alt="Instagram Viewer Walkthrough" title="Instagram Viewer Walkthrough">Instagram Viewer Walkthrough</a></li>
+<li><a href="/courses/intro_to_android/pages/submitting_assignments" alt="Submitting Assignments" title="Submitting Assignments">Submitting Assignments</a></li>
+</ul></li>
+<li><span class="glyphicon glyphicon-film"></span> <a href="/course_videos/intro_to_android/73990805" alt="Debugging Android Applications Video" title="Debugging Android Applications Video">Debugging Android Applications Video</a></li>
+</ul>
+
+<h3><a class="anchor" id="heading-guides" href="#heading-guides"><i class="fa fa-link"></i></a>Guides</h3>
+
+<ul>
+<li><a href="http://guides.codepath.com/android/Constructing-View-Layouts">Constructing View Layouts</a></li>
+<li><a href="http://guides.codepath.com/android/Using-an-ArrayAdapter-with-ListView">Using a Custom ArrayAdapter with ListView</a></li>
+<li><a href="http://guides.codepath.com/android/Mobile-Screen-Archetypes">Mobile Screen Archetypes</a></li>
+<li><a href="http://guides.codepath.com/android/Troubleshooting-Common-Issues">Troubleshooting Common Issues</a></li>
+<li><a href="http://guides.codepath.com/android/Using-String-Resources">Using String Resources</a></li>
+<li><a href="http://guides.codepath.com/android/Working-with-the-TextView">Working with TextView</a></li>
+<li><a href="http://guides.codepath.com/android/Working-with-the-ImageView">Working with ImageView</a></li>
+<li><a href="http://guides.codepath.com/android/Styling-UI-Screens-FAQ">Styling UI Screens FAQ</a></li>
+<li><a href="http://guides.codepath.com/android/Cloning-a-Login-Screen-Layout-Guide">Cloning a Login Screen Guide</a></li>
+<li>See all the <a href="http://guides.codepath.com/android/Android-Bootcamp-Cliffnotes#week-1---fundamentals-and-views">Week 1 cliffnotes</a></li>
+</ul>
+
+<h3><a class="anchor" id="heading-slides" href="#heading-slides"><i class="fa fa-link"></i></a>Slides</h3>
+
+<ul>
+<li><span class="glyphicon glyphicon-paperclip"></span> <a href="/course_files/intro_to_android/slides/slides_introduction.pdf" alt="Slides (Introduction).pdf" title="Slides (Introduction).pdf">Slides (Introduction).pdf</a></li>
+<li><span class="glyphicon glyphicon-paperclip"></span> <a href="/course_files/intro_to_android/slides/Mobile%20Application%20Architecture.pdf" alt="Mobile Application Architecture.pdf" title="Mobile Application Architecture.pdf">Mobile Application Architecture.pdf</a></li>
+<li><span class="glyphicon glyphicon-paperclip"></span> <a href="/course_files/intro_to_android/slides/Slides%20(Quickstart).pdf" alt="Slides (Quickstart).pdf" title="Slides (Quickstart).pdf">Slides (Quickstart).pdf</a> </li>
+<li><span class="glyphicon glyphicon-paperclip"></span> <a href="/course_files/intro_to_android/slides/Slides%20Chapter%2001%20(Fundamentals).pdf" alt="Slides Chapter 01 (Fundamentals).pdf" title="Slides Chapter 01 (Fundamentals).pdf">Slides Chapter 01 (Fundamentals).pdf</a></li>
+<li><span class="glyphicon glyphicon-expand"></span> <a href="/slides/intro_to_android/chapter_1" alt="Chapter 1 Slides" title="Chapter 1 Slides">Chapter 1 Slides</a> (Experimental) </li>
+</ul>
+
+<h3><a class="anchor" id="heading-lectures" href="#heading-lectures"><i class="fa fa-link"></i></a>Lectures</h3>
+
+<ul>
+<li><span class="glyphicon glyphicon-film"></span> <a href="/course_videos/intro_to_android/72475810" alt="Todo App Video" title="Todo App Video">Todo App Video</a></li>
+<li><span class="glyphicon glyphicon-film"></span> <a href="/course_videos/intro_to_android/73415038" alt="Video: Chapters 1-3 Recorded" title="Video: Chapters 1-3 Recorded">Video: Chapters 1-3 Recorded</a></li>
+</ul>
+
+<h3><a class="anchor" id="heading-sample-code" href="#heading-sample-code"><i class="fa fa-link"></i></a>Sample Code</h3>
+
+<ul>
+<li><a href="https://github.com/codepath/intro_android_demo">Beginning Android Samples</a></li>
+<li><a href="https://github.com/codepath/android-custom-array-adapter-demo">Custom ArrayAdapter Demo</a></li>
+</ul>
+
+<h3><a class="anchor" id="heading-other-resources" href="#heading-other-resources"><i class="fa fa-link"></i></a>Other Resources</h3>
+
+<ul>
+<li><a href="http://www.kinvey.com/blog/2765/ios-and-android-design-guidelines-cheat-sheet">Android vs iOS Design Cheat Sheet</a></li>
+<li><a href="http://source.android.com/source/code-style.html">Android Code Style Guide</a> - Great reference for proper code style</li>
+<li><a href="http://android-app-patterns.com">Android App Patterns</a> - Great site for exploring good Android UI / UX</li>
+<li><a href="http://iconmonstr.com">iconmonstr</a> - Free quality image icons for use in your apps</li>
+</ul>
+</div></div></div><div class="tab-pane" id="assignment"><div class="panel panel-default"><div class="panel-body"><h2><a class="anchor" id="heading-week-1-project-instagram-photo-viewer" href="#heading-week-1-project-instagram-photo-viewer"><i class="fa fa-link"></i></a>Week 1 Project: Instagram Photo Viewer</h2>
+
+<p><strong>Due:</strong> Sunday, February 8th at 10pm</p>
+
+<p><strong>Overview</strong>: Build a read-only photo viewer for Instagram which allows a user to check out popular photos.</p>
+
+<p><strong>Guide</strong>: Please review the <span class="glyphicon glyphicon-paperclip"></span> <a href="/course_files/intro_to_android/slides/Weekly%20Projects%20Overview.pdf" alt="Weekly Projects Slide Deck" title="Weekly Projects Slide Deck">Weekly Projects Slide Deck</a> for a more detailed visual guide for building this app.</p>
+
+<p><strong>Walkthrough:</strong> Check out the provided <span class="glyphicon glyphicon-film"></span> <a href="/course_videos/intro_to_android/105515674" alt="video walkthrough" title="video walkthrough">video walkthrough</a> for this project to get you started. Check the <a href="#!hints">Project 1 Tips Guide</a> to troubleshoot problems or get hints. </p>
+
+<ul>
+<li>Download <a href="https://chrome.google.com/webstore/detail/vimeo-repeat-speed/noonakfaafcdaagngpjehilgegefdima/related?hl=en">this playback extension</a> to control playback speeds on Vimeo. </li>
+<li>Download the <a href="https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en">JSONView extension</a> to view JSON better in your browser.</li>
+</ul>
+
+<p><strong>Libraries:</strong> Completing this project, requires the use of the <a href="http://loopj.com/android-async-http/">android-async-http</a> and the <a href="http://square.github.io/picasso/">Picasso</a> libraries. Add dependencies for these libraries to the <a href="https://github.com/codepath/android-rest-client-template/blob/master/app/build.gradle#L24-L25">app/build.gradle</a> file.</p>
+
+<p><strong>Submitting Assignments:</strong> Submitted through Github, check out the <a href="/courses/intro_to_android/pages/submitting_assignments" alt="Submitting Assignments" title="Submitting Assignments">Submitting Assignments</a> page for more details.</p>
+
+<p><strong>User Stories</strong>:</p>
+
+<p>The following user stories <strong>must</strong> be completed:</p>
+
+<ul>
+<li>User can scroll through current popular photos from Instagram</li>
+<li>For each photo displayed, user can see the following details: 
+
+<ul>
+<li>Graphic, Caption, Username</li>
+<li>(Optional) relative timestamp, like count, user profile image</li>
+</ul></li>
+</ul>
+
+<p>The following advanced user stories are <strong>optional</strong>:</p>
+
+<ul>
+<li><strong>Advanced:</strong> Add pull-to-refresh for popular stream with <a href="http://guides.codepath.com/android/Implementing-Pull-to-Refresh-Guide">SwipeRefreshLayout</a></li>
+<li><strong>Advanced:</strong> Show latest comment for each photo (bonus: show last 2 comments)</li>
+<li><strong>Advanced:</strong> Display each photo with the same style and proportions as the real Instagram (see screens below)</li>
+<li><strong>Advanced:</strong> Display each user profile image using a <a href="https://github.com/vinc3m1/RoundedImageView">RoundedImageView</a></li>
+<li><strong>Advanced:</strong> Display a nice default placeholder graphic for each image during loading (read more about Picasso)</li>
+<li><strong>Advanced:</strong> Improve the <a href="http://guides.codepath.com/android/Styling-UI-Screens-FAQ#actionbar">user interface</a> through styling and coloring</li>
+<li><strong>Bonus:</strong> Allow user to view all comments for an image within a separate screen or a <a href="http://guides.codepath.com/android/Using-DialogFragment">dialog fragment</a> </li>
+</ul>
+
+<p><strong>Cliffnotes:</strong></p>
+
+<ul>
+<li>(Cliffnotes) <a href="http://guides.codepath.com/android/Android-Directory-Structure">Android Directory Structure</a></li>
+<li>(Cliffnotes) <a href="http://guides.codepath.com/android/Constructing-View-Layouts">Constructing View Layouts</a></li>
+<li>(Cliffnotes) <a href="http://guides.codepath.com/android/Using-an-ArrayAdapter-with-ListView">Populating a ListView Using Custom Adapter</a></li>
+<li>(Cliffnotes) <a href="http://guides.codepath.com/android/Working-with-the-ImageView">Working with ImageView</a></li>
+<li>(Cliffnotes) <a href="http://guides.codepath.com/android/Basic-Event-Listeners">Basic Event Handling</a></li>
+<li>(Cliffnotes) <a href="http://guides.codepath.com/android/Using-String-Resources">Using Strings and other Resources</a></li>
+</ul>
+
+<p><strong>References For This Assignment</strong>:</p>
+
+<ul>
+<li>(Guide) <a href="http://developer.android.com/guide/components/fundamentals.html">App Fundamentals</a></li>
+<li>(Guide) <a href="http://developer.android.com/guide/topics/ui/declaring-layout.html">Declaring Layouts</a></li>
+<li>(Guide) <a href="http://developer.android.com/guide/topics/ui/layout/linear.html">LinearLayout</a></li>
+<li>(Guide) <a href="http://developer.android.com/guide/topics/ui/layout/relative.html">RelativeLayout</a></li>
+</ul>
+
+<p><strong>Mockups</strong></p>
+
+<p>With required user stories completed and a basic scrolling feed of popular photos:</p>
+
+<p><img src="/course_images/intro_to_android/instagram_1.png" title="Instagram 1" width="320" alt="Instagram 1" /></p>
+
+<p>With several optionals and enhanced feed of popular photos:</p>
+
+<p><img src="/course_images/intro_to_android/instagram_4.png" title="Instagram 4" width="320" alt="Instagram 4" />
+<img src="/course_images/intro_to_android/instagram_3.png" title="Instagram 3" width="320" alt="Instagram 3" /></p>
+</div></div></div><div class="tab-pane" id="hints"><div class="panel panel-default"><div class="panel-body"><h2><a class="anchor" id="heading-project-1-instagram-client-helpful-hints" href="#heading-project-1-instagram-client-helpful-hints"><i class="fa fa-link"></i></a>Project 1 (Instagram Client) Helpful Hints</h2>
+
+<p>Here's a list of useful notes you may find helps save you time while developing the Instagram Client or running into problems:</p>
+
+<ul>
+<li><p><strong>Tip #1</strong>: Make sure to review the <a href="http://instagram.com/developer/endpoints/media/">Instagram API</a> and what the expected response looks like.</p></li>
+<li><p><strong>Tip #2</strong>: Scrolling vertically on Android emulator is done via pushing down on the left mouse and dragging up as you would do to scroll with your finger on the device.</p></li>
+<li><p><strong>Problem #1</strong>: Can't get back the JSON Response! A number of people always run into issues with their emulator and not being able to access the Instagram API. If you are pretty sure you have the code right and you can't seem to get any response back from the API, try these steps:</p>
+
+<ul>
+<li>Check the URL to ensure that you are passing the correct <code>client_id</code> with the request.</li>
+<li>Make sure you have added the internet permission
+<code>&lt;uses-permission android:name="android.permission.INTERNET" /&gt;</code> to your manifest.</li>
+<li>Ensure the emulator has <a href="http://i.imgur.com/kZqZko6.gif">access to the internet</a>, otherwise all network requests fail.</li>
+<li>Restart the emulator (close window and relaunch) until you have verified internet access above.</li>
+<li>Obtain the exact url (by breakpointing or logging) that you are going to send a request to and paste the url into your browser to verify the API response is coming back correctly.</li>
+<li>Make sure you are using the <code>new JsonHttpResponseHandler()</code>(<a href="http://loopj.com/android-async-http/doc/com/loopj/android/http/JsonHttpResponseHandler.html">docs</a>) in your AsyncHttpClient  network call and make sure you are sending
+<code>client.get(url, new JsonHttpResponseHandler() { ... })</code></li>
+<li>Verify that the onSuccess signature is correct. The Image search API returns a JSON dictionary so make sure the onSuccess is using JSONObject and not JSONArray in this case. This is entirely dependent on whether a dictionary or array is the root object i.e
+<code>public void onSuccess(int statusCode, Header[] headers, JSONObject response)</code></li>
+<li>Add an <code>onFailure</code> to the <code>JsonHttpResponseHandler</code> callbacks and log there to ensure that its not being hit</li>
+<li>Check your LogCat to make sure there are no specific error messages (and watch this <a href="http://courses.codepath.com/course_videos/intro_to_android/73990805">debugging video</a> for more tips), use filters to more easily read the log.</li>
+<li><a href="http://stackoverflow.com/questions/12447839/how-to-uninstall-my-app-from-android-emulator-on-a-mac-10-7-4">Uninstall the app</a> from the emulator and allow it to be fully re-installed by relaunching it from within Android Studio.</li>
+</ul></li>
+<li><p><strong>Problem #2</strong>: Parsing JSON data can raise an exception if certain keys are null! When parsing JSON data, you want to program defensively and verify that keys exist and are not null. You can verify that a key exists with the <code>notNull</code> method or optionally extract a key (only if it exists) with the <code>opt</code> prefix method. For example, <code>if (photoJSON.optJSONObject("caption") != null) { ... }</code> will extract the caption only if the caption is not null and will return null otherwise.</p></li>
+<li><p><strong>Tip #3</strong>: To make the UI of your Instagram client look more like the actual Instagram app, switch to XML view of your activity layout and play around with different <a href="http://guides.codepath.com/android/Defining-Views-and-their-Attributes">attributes</a>. Read more about this in our <a href="http://guides.codepath.com/android/Constructing-View-Layouts#relativelayout">RelativeLayout Cliffnotes</a>.</p></li>
+<li><p><strong>Tip #4</strong>: In order to have a single row of text which has two different styles (i.e username styled differently from comment), we can use a single <code>TextView</code> leveraging the spannable functionality to <a href="http://guides.codepath.com/android/Working-with-the-TextView#inserting-html-formatting">format our TextView body using basic HTML</a>.</p></li>
+<li><p><strong>Tip #5</strong>: Making the photo appear more like the display on the official Instagram provides time for experimentation with a few different properties.</p>
+
+<ul>
+<li>First, check out the different <a href="http://guides.codepath.com/android/Working-with-the-ImageView#scale-types">scale types</a> for the ImageView and make sure to set <code>adjustViewBounds</code> to true.</li>
+<li>When loading with Picasso, experiment with different loading behaviors such as <code>.fit().centerInside()</code> or <code>.resize(x, y)</code> specified before the <code>.into(...)</code> command.</li>
+<li>To resize an image and preserve aspect ratio, as of Picasso 2.4.0 you can simply supply <code>0</code> for one of the arguments i.e <code>.resize(150, 0)</code></li>
+<li>If you want to determine the width of the screen, you can check the width of the layout item or use this <a href="https://gist.github.com/nesquena/318b6930aac3a56f96a4">device dimensions helper</a></li>
+<li>In the adapter, you can calculate the aspect ratio of the image (<code>width / height</code>) and then set the ImageView width to screen width and the height to correct calculated height to maintain the aspect ratio of the image.</li>
+</ul></li>
+<li><p><strong>Tip #6</strong>: To display the photo date as a relative timestamp, we can use <code>DateUtils</code>. The Instagram API returns unix timestamps in the long format of <code>1382576494</code>. To convert these into relative dates, we just need to multiply the long date by 1000: <code>DateUtils.getRelativeTimeSpanString(longCreatedAt * 1000, ..., ...)</code> and this will return a relative string such as "4 hours ago". See <a href="http://chris.banes.me/2013/01/15/snippet-dateutils/">this article</a> for how to display relative timestamps.</p></li>
+<li><p><strong>Tip #7</strong>: For displaying rounded images such as for a profile image using Picasso, you can apply a <a href="http://stackoverflow.com/a/26112408/313399">rounded transform</a> as outlined. Alternatively, in Android Studio, check out the third-party <a href="https://github.com/vinc3m1/RoundedImageView">RoundedImageView</a> library which makes rounded image displays easy. Just load the image into the rounded image view using picasso.</p></li>
+<li><p><strong>Tip #8</strong>: To improve the performance of any <code>ListView</code>, be sure to implement the <a href="http://guides.codepath.com/android/Using-an-ArrayAdapter-with-ListView#improving-performance-with-the-viewholder-pattern">ViewHolder pattern</a> on any adapters you create. Every custom adapter should use that pattern to speed up scrolling and item loading. In short, this pattern prevents the unnecessary lookup of the views being populated for each row every time you scroll.</p></li>
+<li><p><strong>Tip #9</strong>: To use a custom launcher icon for the app, you can first download any image from <a href="https://www.iconfinder.com/">IconFinder</a>. Within the Android project select <code>New → Image Asset</code> and browse to find the image file.  You can use this tool which will generate the launcher icon specified for all drawable density folders.</p></li>
+<li><p><strong>Tip #10</strong>: When displaying comments in each item, avoid ever embedding a ListView within another ListView item. This rarely goes well and is considered an anti-pattern. Instead, simply inflate the and append the comments into a layout container as <a href="http://stackoverflow.com/questions/3135112/android-nested-listview/5983743#5983743">outlined here</a>.</p></li>
+</ul>
+</div></div></div><div class="tab-pane" id="exercises"><div class="panel panel-default"><div class="panel-body"><h2><a class="anchor" id="heading-week-1-lab-exercises" href="#heading-week-1-lab-exercises"><i class="fa fa-link"></i></a>Week 1 Lab Exercises</h2>
+
+<h3><a class="anchor" id="heading-challenge" href="#heading-challenge"><i class="fa fa-link"></i></a>Challenge</h3>
+
+<p>This week we will be playing with how to layout views and style user interfaces. We will be doing this challenge in pairs during the lab. There will be about 1 1/2 hours allotted for development.</p>
+
+<p><img src="http://i.imgur.com/sCIXqp3.png" title="Login Screen" width="250" alt="Login Screen" />
+<img src="http://i.imgur.com/1ly82h6.png" title="Stream" width="250" alt="Stream" /></p>
+
+<ol>
+<li>Create New Project
+
+<ul>
+<li>Create a new android project (minSDK 16) and choose to create a "Blank Activity"</li>
+<li>Name the new blank activity as "LoginActivity"</li>
+</ul></li>
+<li>Clone Login Screen
+
+<ul>
+<li>Browse <a href="http://www.android-app-patterns.com/category/login-screens">Login Screens</a> on Android App Patterns</li>
+<li>Recreate one chosen login screen as closely as possible while using android views and layouts</li>
+<li>Use real text fields, layouts, buttons where possible. Don't just copy one big screenshot</li>
+<li>The goal is to clone the <strong>structure and layout of the screen</strong> but you can find other images or borrow from the reference implementation</li>
+<li>When pressing sign in, hook up the button event to toast (or take you to the stream screen below)</li>
+<li>You can use nested layouts to achieve more complicated configurations</li>
+<li><strong>Review:</strong> <a href="http://guides.codepath.com/android/Styling-UI-Screens-FAQ">Styling UI Screens FAQ</a>, <a href="http://guides.codepath.com/android/Working-with-the-ImageView#scale-types">Working with ImageView</a>, <a href="http://guides.codepath.com/android/Cloning-a-Login-Screen-Layout-Guide">Cloning Login Screen</a></li>
+</ul></li>
+<li><strong>(Bonus)</strong> Clone Stream View
+
+<ul>
+<li>Browse <a href="http://www.android-app-patterns.com/category/streams">Stream Screens</a> on Android App Patterns</li>
+<li>Recreate one chosen stream screen as closely as possible while using android views and layouts</li>
+<li>The data is faked but focus on recreating the items within the stream as closely as possible to the reference implementation.</li>
+<li><strong>Review:</strong> <a href="http://guides.codepath.com/android/Styling-UI-Screens-FAQ">Styling UI Screens FAQ</a></li>
+</ul></li>
+</ol>
+
+<h3><a class="anchor" id="heading-conceptual-review" href="#heading-conceptual-review"><i class="fa fa-link"></i></a>Conceptual Review</h3>
+
+<ul>
+<li>Most common screens in most mobile apps? (Login, Feed, Detail, Create Form)</li>
+<li>What is an activity? What are the two key files to any Activity?</li>
+<li>Describe the method by which items are populated into list, what steps are needed?</li>
+<li>How do you improve the performance of a ListView? What exactly does the ViewHolder pattern do?</li>
+<li>Describe exactly what an adapter is? How does the getView method work?</li>
+<li>Why do we need string resources? How do we use them? What other resource types have we used?</li>
+<li>How does positioning with RelativeLayout work? What types of rules can I apply?</li>
+<li>What are the different ways to add spacing between view elements?</li>
+<li>What are the most common view elements used in app?</li>
+</ul>
+
+<h3><a class="anchor" id="heading-additional-optional-exercises" href="#heading-additional-optional-exercises"><i class="fa fa-link"></i></a>Additional Optional Exercises</h3>
+
+<p>There are a series of exercises you <strong>optionally</strong> can perform to <strong>review the concepts</strong> introduced this week:</p>
+
+<ul>
+<li><a href="http://codepath.github.io/intro_android_exercises/chapters/chapter01.html">Chapter 1: Fundamental Exercises</a></li>
+<li><a href="http://codepath.github.io/intro_android_exercises/chapters/chapter02.html">Chapter 2: Layout Exercises</a></li>
+<li><a href="http://codepath.github.io/intro_android_exercises/chapters/chapter03.html">Chapter 3: View Exercises</a></li>
+</ul>
+
+<p>These are in addition to the mini-projects and are not required but are supplemental content.</p>
+</div></div></div></div></div></div></div></body><script src="/javascripts/jquery.js?1423092769" type="text/javascript"></script><script src="/javascripts/jquery-ujs.js?1423092769" type="text/javascript"></script><script src="/javascripts/sugar.min.js?1423092769" type="text/javascript"></script><script src="/javascripts/bootstrap.min.js?1423092769" type="text/javascript"></script><script src="/javascripts/typeahead.min.js?1423092769" type="text/javascript"></script><script src="/javascripts/pdfobject.min.js?1423092769" type="text/javascript"></script><script src="/javascripts/jquery.fitvids.js?1423092769" type="text/javascript"></script><script src="/javascripts/oauth.js?1423092769" type="text/javascript"></script><script src="/javascripts/application.js?1423092769" type="text/javascript"></script></html>

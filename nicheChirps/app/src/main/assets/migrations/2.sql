@@ -1,0 +1,1 @@
+alter table tweets add column createdTimestamp int;
